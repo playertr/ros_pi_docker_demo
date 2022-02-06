@@ -88,7 +88,7 @@ With the file on the Pi, load it into Docker. From the Pi terminal:
 docker load < ~/talker-arm64.tar
 ```
 
-## 6. Enjoy ROS on your Pi
+## 6. Enjoy ROS on your Pi.
 If "enjoying ROS on your Pi" means "executing the most minimal working example possible", then we're in for the ride of our lives. On the Pi, run:
 ```
 docker run -it --net host playertr/talker:arm64 roslaunch talker talker.launch
